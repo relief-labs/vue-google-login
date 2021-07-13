@@ -1,5 +1,5 @@
 {
-  "name": "vue-google-login",
+  "name": "@cory-clearing/vue-google-login",
   "version": "2.0.5",
   "description": "Button to login with google with really simple setup",
   "main": "dist/vue-google-login.min.js",
