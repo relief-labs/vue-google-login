@@ -120,6 +120,10 @@
           type: Function,
           "default": function _default() {}
         },
+        onError: {
+          type: Function,
+          "default": function _default() {}
+        },
         onSuccess: {
           type: Function,
           "default": function _default() {}
@@ -173,6 +177,7 @@
           }
         })["catch"](function (err) {
           console.log(err);
+          return _this.onError(err);
         });
       }
     };
