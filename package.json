@@ -1,6 +1,6 @@
 {
   "name": "vue-google-login",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Button to login with google with really simple setup",
   "main": "dist/vue-google-login.min.js",
   "scripts": {
@@ -9,11 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bili": "bili",
     "babel": "babel src --out-dir lib",
-    "change-name": "json -I -f ./package.json -e this.name='\"@rmartide/vue-google-login\"'"
+    "change-name": "json -I -f ./package.json -e this.name='\"@cory-clearing/vue-google-login\"'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmartide/vue-google-login.git"
+    "url": "git+https://github.com/relief-labs/vue-google-login.git"
   },
   "keywords": [
     "vue",
@@ -28,9 +28,9 @@
   "author": "Rodrigo Martín de Lamo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rmartide/vue-google-login/issues"
+    "url": "https://github.com/relief-labs/vue-google-login/issues"
   },
-  "homepage": "https://rmartide.github.io/vue-google-login/",
+  "homepage": "https://github.com/relief-labs/vue-google-login/",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
